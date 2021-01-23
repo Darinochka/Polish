@@ -97,8 +97,13 @@ argu = input()
 output = []
 stack = []
 
+op = {'^': 2,
+        '*': 1,
+        '/': 1,
+        '+': 0,
+        '-': 0,
+        '(': -1}
 
-print("Alisher is a good man!")
 key = True
 for i in fun: #выводим обратную польскую нотацию
     last = len(stack)-1
