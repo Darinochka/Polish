@@ -4,6 +4,7 @@ class BinOp:
         self.left = left
         self.right = right
     def __repr__(self):
+        "Alisher was here"
         return f"BinOp({self.left}, {self.right},{self.op})"
     
 def BinOp_f(source): #создаем биноп для рисовки дерева
